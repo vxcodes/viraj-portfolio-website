@@ -1,0 +1,40 @@
+.navbar {
+    background-color: rgb(142, 212, 207);
+    position: fixed;
+}
+
+.logo-link {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding-left: 60rem;
+    list-style: none;
+
+}
+
+.nav-link {
+    margin-right: 1rem;
+    color: white;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Main section styling */
+
+.main {
+    display: flex;
+    background-color: rgb(219, 178, 224);
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+}
