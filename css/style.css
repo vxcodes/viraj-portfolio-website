@@ -31,10 +31,8 @@
 
 /* Main section styling */
 
-.main {
-    display: flex;
-    background-color: rgb(219, 178, 224);
-    height: 100vh;
-    color: white;
-    min-height: 500px;
+#two-column-section-intro {
+    padding-top: 2rem;
+    padding-left: 12rem;
+    padding-right: 0rem;
 }
