@@ -1,29 +1,61 @@
-.navbar {
-    background-color: rgb(142, 212, 207);
-    position: fixed;
-}
-
-.logo-link {
-    color: white;
-    font-size: 35px;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.nav-list {
-    display: flex;
-    margin: 0;
-    padding-left: 60rem;
-    list-style: none;
+#banner-main {
+    background-image: url(/imgs/background-two.jpeg);
+    height: 350px;
+    -webkit-background-size: cover;
+    background-size: 100% auto;
+    background-position:20% 50% ;
+    box-sizing: border-box;
+    opacity: 1;
+    max-width: 100%;
 
 }
 
-.nav-link {
-    margin-right: 1rem;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+#banner-about {
+    background-image: url(/imgs/background.jpeg);
+    height: 350px;
+    -webkit-background-size: cover;
+    background-size: 100% auto;
+    box-sizing: border-box;
+    opacity: 1;
+    max-width: 100%;
+
 }
+
+#banner-code {
+    background-image: url(/imgs/background-three.jpeg);
+    height: 350px;
+    -webkit-background-size: cover;
+    background-size: 100% auto;
+    background-position:20% 60% ;
+    box-sizing: border-box;
+    opacity: 1;
+    max-width: 100%;
+
+}
+
+#banner-skills {
+    background-image: url(/imgs/background-four.jpeg);
+    height: 350px;
+    -webkit-background-size: cover;
+    background-size: 100% auto;
+    background-position:20% 60% ;
+    box-sizing: border-box;
+    opacity: 1;
+    max-width: 100%;
+
+}
+
+#banner-connect {
+    background-image: url(/imgs/background-two.jpeg);
+    height: 350px;
+    -webkit-background-size: cover;
+    background-size: 100% auto;
+    box-sizing: border-box;
+    opacity: 1;
+    max-width: 100%;
+
+}
+
 
 .navbar .max-width {
     display: flex;
