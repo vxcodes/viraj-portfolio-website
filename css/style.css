@@ -56,6 +56,20 @@
 
 }
 
+/* nav {
+    font-size: 20px;
+    padding: 30px ;
+} */
+
+#name {
+    width: 150px;
+    height: 90px;
+    position: relative;
+    background-size: contain;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
 
 .navbar .max-width {
     display: flex;
@@ -70,4 +84,49 @@
     padding-left: 12rem;
     padding-right: 0rem;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Connect page styling start */
+
+
+#personName{
+    height: 40px;
+    width: 300px;
+}
+
+#personEmail{
+    height: 40px;
+    width: 300px;
+}
+
+#personSubject{
+    height: 40px;
+    width: 300px;
+}
+
+#personMessage{
+    height: 200px;
+    width: 300px;
+}
+
+#postSubmitButton{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
+/* Footer style starts */
+
+footer {
+    height: 50px;
+    width: 100%;
+    align-content: center;
+}
+
+#footer-text {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 25px;
+    color: black;
+
 }

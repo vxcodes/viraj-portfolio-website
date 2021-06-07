@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,27 +18,15 @@
     <title>Viraj Patel</title>
 </head>
 <body>
-    <!-- <nav class="navbar">
-        <div class="max-width">
-            <div class="logo">
-                <a class="logo-link" href="index.html">VIRAJ PATEL</a>
-            </div>
-            <ul class="nav-list">
-                <li><a class="nav-link" href="about.html">About</a></li>
-                <li><a class="nav-link" href="code.html">Code</a></li>
-                <li><a class="nav-link" href="skills.html">Skills</a></li>
-                <li><a class="nav-link" href="connect.html">Connect</a></li>
-            </ul>
-        </div>
-    </nav> -->
+
     <!--Banner Img-->
     <div class="container" id="banner-connect">
 
     </div>
     <!--Navigation-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src=""></a>
+            <a id="name" class="navbar-brand" href="index.html">VIRAJ PATEL</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,9 +34,6 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="about.html">ABOUT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="code.html">CODE</a>
@@ -62,21 +49,37 @@
         </div>
     </nav>
 
-    <!--Two Column Section Start-->
-    <div class="container-fluid padding" id="about">
-    <div class="row padding">
-        <div class="col-lg-6">
-            <h2>Hi, my name is Viraj Patel</h2>
-            <p>I am a full-stack software engineer with a passion for making a positive and widespread impact in the lives of many. My zest for problem solving, excitement I get from seeing my code actualize in real time, and the supportive community of people in tech are what led me on this journey and have fueled my desire to give back.</p>
-            <br />
-            <p>With a background in cell/molecular biology, I have cultivated critical thinking skills, an analytical mindset, and knowledge of process improvement. My goal is to build applications that deliver elegant solutions geared toward the success, balance, and productivity of individuals around the world.</p>
-            <br />
-            <p>Some of my hobbies include cooking, hiking, and creating art! All art on this website was made by yours truly through procreate!</p>
+    <!--Contact form start-->
+    <form id="inquiry-form" action="https://formsubmit.co/jn.viraj@gmail.com" method="POST">
+        <div id="newInquiryForm" class="container">
+            <input type="hidden" name="_subject" value="New Home Inquiry!">
+            <div class="row justify-content-center">
+                <label>
+                    <input id="personName" type="string" placeholder="Full Name" name="name">
+                </label>
+            </div>
+
+            <div class="row justify-content-center">
+                <label>
+                    <input id="personEmail" type="string" placeholder="Email" name="email">
+                </label>
+            </div>
+
+            <div class="row justify-content-center">
+                <label>
+                    <input id="personSubject" type="string" placeholder="Subject" name="subject">
+                </label>
+            </div>
+
+            <div class="row justify-content-center">
+                <label>
+                    <!-- <input id="postContent"  type="string" placeholder="Article text here" name="content"> -->
+                    <textarea id="personMessage"  type="string" placeholder="Message" name="message"></textarea>
+                </label>
+            </div>
+            <input id="postSubmitButton" type="submit" value="Submit">
         </div>
-        <div class="col-lg-6">
-            <img src="/imgs/portrait.jpeg" class="img-fluid" height="900" width="350">
-        </div>
-    </div>
+    </form>
 
     <!--Footer-->
     
