@@ -117,11 +117,12 @@
 
 /* Footer style starts */
 
-footer {
-    height: 50px;
-    width: 100%;
+
+#footer {
+    height: 25px;
     align-content: center;
-}
+
+} 
 
 #footer-text {
     text-align: center;
@@ -129,4 +130,21 @@ footer {
     margin-top: 25px;
     color: black;
 
+}
+
+.bd-footer-links{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    /* padding-left: 35rem;
+    padding-right: 35rem; */
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.bd-footer-links li {
+    display: inline;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center;
 }
