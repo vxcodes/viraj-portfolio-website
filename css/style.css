@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #banner-main {
     background-image: url(/imgs/background-two.jpeg);
     height: 350px;
@@ -62,11 +67,11 @@
 } */
 
 #name {
-    width: 150px;
-    height: 90px;
+    width: 200px;
+    height: 150px;
     position: relative;
     background-size: contain;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 10px;
     font-size: 30px;
 }
@@ -90,23 +95,35 @@
 
 
 #personName{
+    text-align: center;
     height: 40px;
     width: 300px;
+    border: none;
+    outline: none;
 }
 
 #personEmail{
+    text-align: center;
     height: 40px;
     width: 300px;
+    border: none;
+    outline: none;
 }
 
 #personSubject{
+    text-align: center;
     height: 40px;
     width: 300px;
+    border: none;
+    outline: none;
 }
 
 #personMessage{
+    text-align: center;
     height: 200px;
     width: 300px;
+    border: none;
+    outline: none;
 }
 
 #postSubmitButton{
@@ -144,7 +161,32 @@
 
 .bd-footer-links li {
     display: inline;
+    padding-top: 20px;
     padding-right: 50px;
     padding-left: 50px;
     align-items: center;
+
+}
+
+
+/* Code Cards Styling Start */
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+}
+
+/* icon effects */
+
+#icons {
+    overflow: hidden;
+}
+
+#icons svg {
+    transition: all 0.5s ease;
+}
+
+#icons:hover svg{
+    transform: scale(1.2);
 }
