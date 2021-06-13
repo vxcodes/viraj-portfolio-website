@@ -254,3 +254,9 @@ body {
 #skill-imgs:hover{
     transform: rotate(360deg);
 }
+
+/* Portfolio.html styles start */
+
+#portfolio-text{
+    padding-bottom: 12rem;
+}
