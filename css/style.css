@@ -4,7 +4,8 @@ body {
 }
 
 #banner-main {
-    background-image: url(/imgs/background-five.JPEG);
+    /* background-image: url(/imgs/background-five.jpeg); */
+    background-image: url(https://vxcodes.github.io/viraj-portfolio-website/index.html/imgs/background-five.jpeg);
     height: 350px;
     -webkit-background-size: cover;
     background-size: 100% auto;
