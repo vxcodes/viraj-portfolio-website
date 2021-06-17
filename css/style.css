@@ -34,6 +34,21 @@ body {
     background-size: cover;
 }
 
+.banner-main-bottom-skills{
+    background-image: url(/imgs/background-six.jpeg);
+    height: 350px;
+    -webkit-background-size: cover;
+    background-size: 100% auto;
+    background-position:20% 20% ;
+    box-sizing: border-box;
+    opacity: 1;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #banner-about {
     background-image: url(/imgs/background.jpeg);
     height: 350px;
