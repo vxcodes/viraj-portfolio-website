@@ -99,6 +99,31 @@ body {
 
 /* Main section styling */
 
+.typed-text {
+    font-weight: normal;
+    color:coral;
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: black;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing {
+    animation: none
+}
+
+@keyframes blink {
+    0% { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100% { background-color: #ccc; }
+}
+
 #about {
     padding-top: 2rem;
     padding-left: 12rem;
@@ -259,4 +284,9 @@ body {
 
 #portfolio-text{
     padding-bottom: 12rem;
+}
+
+/* Footer Styling */
+.footer {
+    background-image: url(/imgs/background-two.jpeg);
 }
