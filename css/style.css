@@ -163,6 +163,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.about-img {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
 .main-img{
     align-content: center;
 }
