@@ -121,6 +121,7 @@ body {
     font-size: 30px;
 }
 
+
 .navbar .max-width {
     display: flex;
     align-items: center;
@@ -215,6 +216,9 @@ body {
 
 /* Footer style starts */
 
+footer{
+    background-color: pink;
+}
 
 #footer {
     height: 25px;
@@ -256,6 +260,7 @@ body {
     margin: 0 auto;
     float: none;
     margin-bottom: 20px;
+
 }
 
 /* icon effects */
