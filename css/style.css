@@ -122,6 +122,10 @@ body {
     color: pink;
 }
 
+#logoimg{
+    height: 100px;
+    width: 200px;
+}
 
 .navbar .max-width {
     display: flex;
