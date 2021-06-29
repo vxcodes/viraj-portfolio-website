@@ -147,7 +147,8 @@ body {
 #postSubmitButton {
   width: 20%;
   margin-left: 40%;
-  margin-right: 30%;
+  margin-right: 40%;
+  align-content: center;
 }
 
 /* Footer style starts */
