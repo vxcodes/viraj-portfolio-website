@@ -1,359 +1,311 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #banner-main {
-    background-image: url(/imgs/background-five.jpeg);
-    height: 350px;
-    -webkit-background-size: cover;
-    background-size: 100% auto;
-    background-position:20% 20% ;
-    box-sizing: border-box;
-    opacity: 1;
-    max-width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  background-image: url(/imgs/background-five.jpeg);
+  height: 350px;
+  -webkit-background-size: cover;
+  background-size: 100% auto;
+  background-position: 20% 20%;
+  box-sizing: border-box;
+  opacity: 1;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.banner-main-bottom{
-    background-image: url(/imgs/background-five.jpeg);
-    height: 350px;
-    -webkit-background-size: cover;
-    background-size: 100% auto;
-    background-position:20% 20% ;
-    box-sizing: border-box;
-    opacity: 1;
-    max-width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.banner-main-bottom {
+  background-image: url(/imgs/background-five.jpeg);
+  height: 350px;
+  -webkit-background-size: cover;
+  background-size: 100% auto;
+  background-position: 20% 20%;
+  box-sizing: border-box;
+  opacity: 1;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.banner-main-bottom-skills{
-    background-image: url(/imgs/background-six.jpeg);
-    height: 350px;
-    -webkit-background-size: cover;
-    background-size: 100% auto;
-    background-position:20% 20% ;
-    box-sizing: border-box;
-    opacity: 1;
-    max-width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#banner-about {
-    background-image: url(/imgs/background.jpeg);
-    height: 350px;
-    -webkit-background-size: cover;
-    background-size: 100% auto;
-    box-sizing: border-box;
-    opacity: 1;
-    max-width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-#banner-code {
-    background-image: url(/imgs/background-five.jpeg);
-    height: 350px;
-    -webkit-background-size: cover;
-    background-size: 100% auto;
-    background-position:20% 10% ;
-    box-sizing: border-box;
-    opacity: 1;
-    max-width: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.banner-main-bottom-skills {
+  background-image: url(/imgs/background-six.jpeg);
+  height: 350px;
+  -webkit-background-size: cover;
+  background-size: 100% auto;
+  background-position: 20% 20%;
+  box-sizing: border-box;
+  opacity: 1;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #banner-skills {
-    background-image: url(/imgs/background-six.jpeg);
-    height: 350px;
-    -webkit-background-size: cover;
-    background-size: 100% auto;
-    background-position:20% 5% ;
-    box-sizing: border-box;
-    opacity: 1;
-    max-width: 100%;
-    background-attachment: fixed;
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  background-image: url(/imgs/background-six.jpeg);
+  height: 350px;
+  -webkit-background-size: cover;
+  background-size: 100% auto;
+  background-position: 20% 5%;
+  box-sizing: border-box;
+  opacity: 1;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-#banner-connect {
-    background-image: url(/imgs/background-five.jpeg);
-    height: 350px;
-    -webkit-background-size: cover;
-    background-size: 100% auto;
-    box-sizing: border-box;
-    opacity: 1;
-    max-width: 100%;
-    background-attachment: fixed;
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
 
 #name {
-    width: 200px;
-    height: 150px;
-    position: relative;
-    background-size: contain;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    font-size: 30px;
-    color: pink;
+  width: 200px;
+  height: 150px;
+  position: relative;
+  background-size: contain;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  color: pink;
 }
 
-#logoimg{
-    height: 100px;
-    width: 200px;
+#logoimg {
+  height: 100px;
+  width: 200px;
 }
 
 .navbar .max-width {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
 
 /* Main section styling */
 
 .typed-text {
-    font-weight: normal;
-    color:coral;
+  font-weight: normal;
+  color: coral;
 }
 
 .cursor {
-    display: inline-block;
-    width: 3px;
-    background-color: black;
-    margin-left: 0.1rem;
-    animation: blink 1s infinite;
+  display: inline-block;
+  width: 3px;
+  background-color: black;
+  margin-left: 0.1rem;
+  animation: blink 1s infinite;
 }
 
 .cursor.typing {
-    animation: none
+  animation: none;
 }
 
 @keyframes blink {
-    0% { background-color: #ccc; }
-    49% { background-color: #ccc; }
-    50% { background-color: transparent; }
-    99% { background-color: transparent; }
-    100% { background-color: #ccc; }
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
 }
 
 #about {
-    text-align: center;
-    padding-top: 2rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding-bottom: 5rem;
-    font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-img {
-    border-radius: 50%;
-    height: 500px;
-    width: 500px;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
 }
 
-.main-img{
-    align-content: center;
+.main-img {
+  align-content: center;
 }
 /* Connect page styling start */
 
-
-#personName{
-    text-align: center;
-    height: 40px;
-    width: 300px;
-    border: none;
-    outline: none;
+#personName {
+  text-align: center;
+  height: 40px;
+  width: 300px;
+  border: none;
+  outline: none;
 }
 
-#personEmail{
-    text-align: center;
-    height: 40px;
-    width: 300px;
-    border: none;
-    outline: none;
+#personEmail {
+  text-align: center;
+  height: 40px;
+  width: 300px;
+  border: none;
+  outline: none;
 }
 
-#personSubject{
-    text-align: center;
-    height: 40px;
-    width: 300px;
-    border: none;
-    outline: none;
+#personSubject {
+  text-align: center;
+  height: 40px;
+  width: 300px;
+  border: none;
+  outline: none;
 }
 
-#personMessage{
-    text-align: center;
-    height: 200px;
-    width: 300px;
-    border: none;
-    outline: none;
+#personMessage {
+  text-align: center;
+  height: 200px;
+  width: 300px;
+  border: none;
+  outline: none;
 }
 
-#postSubmitButton{
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 30%;
+#postSubmitButton {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 30%;
 }
 
 /* Footer style starts */
 
-footer{
-    background-color: pink;
+footer {
+  background-color: pink;
 }
 
 #footer {
-    height: 25px;
-    align-content: center;
-
-} 
-
-#footer-text {
-    text-align: center;
-    font-size: 14px;
-    margin-top: 25px;
-    color: black;
-
+  height: 25px;
+  align-content: center;
 }
 
-.bd-footer-links{
-    list-style-type: none;
-    display: inline;
-    text-align: center;
-    /* padding-left: 35rem;
+#footer-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 25px;
+  color: black;
+}
+
+.bd-footer-links {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  /* padding-left: 35rem;
     padding-right: 35rem; */
-    margin-bottom: 1rem;
-    align-items: center;
+  margin-bottom: 1rem;
+  align-items: center;
 }
 
 .bd-footer-links li {
-    display: inline;
-    padding-top: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
-    align-items: center;
-
+  display: inline;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  align-items: center;
 }
-
 
 /* Code Cards Styling Start */
 
 .card {
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 20px;
-
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 20px;
 }
 
 /* icon effects */
 
 #icons {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 #icons svg {
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-#icons:hover svg{
-    transform: scale(1.2);
+#icons:hover svg {
+  transform: scale(1.2);
 }
 
 /* Skills Styling Start */
 
-.skills-inner{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: inherit;
+.skills-inner {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
 }
 
-
-.skills-title{
-    text-align: center;
+.skills-title {
+  text-align: center;
 }
 
-.skills-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding-left:  5rem;
-    padding-right: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    align-items: center;
+.skills-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  align-items: center;
 }
 
-.skill-box{
-    text-align: center;
+.skill-box {
+  text-align: center;
 }
 
 #skill-img {
-    transition: transform .7s ease-in-out;
-
-
+  transition: transform 0.7s ease-in-out;
 }
 
-#skill-img:hover{
-    transform: rotate(360deg);
+#skill-img:hover {
+  transform: rotate(360deg);
 }
 
-#skill-imgs{
-    height: 100px;
-    width: 100px;
-    transition: transform .7s ease-in-out;
+#skill-imgs {
+  height: 100px;
+  width: 100px;
+  transition: transform 0.7s ease-in-out;
 }
 
-#skill-imgs:hover{
-    transform: rotate(360deg);
+#skill-imgs:hover {
+  transform: rotate(360deg);
 }
 
 /* Portfolio.html styles start */
 
-#portfolio-text{
-    padding-bottom: 12rem;
+#portfolio-text {
+  padding-bottom: 12rem;
 }
 
 /* Footer Styling */
 .footer {
-    background-image: url(/imgs/background-two.jpeg);
+  background-image: url(/imgs/background-two.jpeg);
 }
-
 
 #test {
-    margin-top: 25px;
-    font-size: 16px;
-    text-align: center;
+  margin-top: 25px;
+  font-size: 16px;
+  text-align: center;
 
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 }
-
 
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
