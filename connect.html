@@ -75,71 +75,73 @@
     </nav>
 
     <!--Contact form start-->
-    <form
-      id="inquiry-form"
-      action="https://formsubmit.co/775949b0eae00db934b663f630a25266"
-      method="POST"
-    >
-      <div id="newInquiryForm" class="container">
-        <input
-          type="hidden"
-          name="_subject"
-          value="Viraj, You have a portfolio message that requires attention."
-        />
-        <div class="row justify-content-center">
-          <label>
-            <input
-              id="personName"
-              type="string"
-              placeholder="Full Name"
-              name="name"
-            />
-          </label>
+    <div id="test">
+      <form
+        id="inquiry-form"
+        action="https://formsubmit.co/775949b0eae00db934b663f630a25266"
+        method="POST"
+      >
+        <div id="newInquiryForm" class="container">
+          <input
+            type="hidden"
+            name="_subject"
+            value="Viraj, You have a portfolio message that requires attention."
+          />
+          <div class="row justify-content-center">
+            <label>
+              <input
+                id="personName"
+                type="string"
+                placeholder="Full Name"
+                name="name"
+              />
+            </label>
+          </div>
+          <hr />
+          <div class="row justify-content-center">
+            <label>
+              <input
+                id="personEmail"
+                type="string"
+                placeholder="Email"
+                name="email"
+              />
+            </label>
+          </div>
+          <hr />
+          <div class="row justify-content-center">
+            <label>
+              <input
+                id="personSubject"
+                type="string"
+                placeholder="Subject"
+                name="subject"
+              />
+            </label>
+          </div>
+          <hr />
+          <div class="row justify-content-center">
+            <label>
+              <!-- <input id="postContent"  type="string" placeholder="Article text here" name="content"> -->
+              <textarea
+                id="personMessage"
+                type="string"
+                placeholder="Message"
+                name="message"
+              ></textarea>
+            </label>
+          </div>
+          <hr />
+          <button
+            class="btn btn-dark"
+            id="postSubmitButton"
+            type="submit"
+            value="Submit"
+            >S U B M I T</button
+          >
         </div>
-        <hr />
-        <div class="row justify-content-center">
-          <label>
-            <input
-              id="personEmail"
-              type="string"
-              placeholder="Email"
-              name="email"
-            />
-          </label>
-        </div>
-        <hr />
-        <div class="row justify-content-center">
-          <label>
-            <input
-              id="personSubject"
-              type="string"
-              placeholder="Subject"
-              name="subject"
-            />
-          </label>
-        </div>
-        <hr />
-        <div class="row justify-content-center">
-          <label>
-            <!-- <input id="postContent"  type="string" placeholder="Article text here" name="content"> -->
-            <textarea
-              id="personMessage"
-              type="string"
-              placeholder="Message"
-              name="message"
-            ></textarea>
-          </label>
-        </div>
-        <hr />
-        <button
-          class="btn btn-dark"
-          id="postSubmitButton"
-          type="submit"
-          value="Submit"
-          >S U B M I T</button
-        >
-      </div>
-    </form>
+      </form>
+    </div>
     <br />
 
     <div class="banner-main-bottom"> </div>
